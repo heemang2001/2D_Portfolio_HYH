@@ -126,6 +126,7 @@ void CEnemy::DoFire_Bossleft(CBullet CBullet[], CUnit * tpTarget)
 	if (m_IsAliveEnemy == true)
 	{
 		//cout << "DoFire (BOSS)" << endl;
+		//
 
 		// 발사 시작 위치 지정
 		if (nullptr == CBullet) return;
